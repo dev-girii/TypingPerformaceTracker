@@ -1,50 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-signin-client_id" content="630747683091-v7a1alcmbsia36qkq5m1h14aajq5n5v1.apps.googleusercontent.com">
-    <title>Typing Web</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="google-signin-client_id"
+      content="630747683091-v7a1alcmbsia36qkq5m1h14aajq5n5v1.apps.googleusercontent.com"
+    />
+  <title>Free Online Typing Test – Improve Your Speed</title>
+  <meta name="description" content="Take a free online typing test and improve your typing speed and accuracy with live feedback.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://typingperformancetracker.netlify.app/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Free Online Typing Test – Improve Your Speed">
+  <meta property="og:description" content="Take a free typing test and improve your WPM.">
+  <meta property="og:url" content="https://typingperformancetracker.netlify.app/">
+  <meta property="og:type" content="website">
+
+<!-- Preconnect for fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Async load Google Fonts -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Ubuntu+Mono:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Ubuntu+Mono:wght@400;700&display=swap">
+</noscript>
+
+<!-- Async load Font Awesome -->
+<link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</noscript>
+
+<!-- Async load Bootstrap CSS -->
+<link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<noscript>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</noscript>
+
+<!-- Your local stylesheet (critical if used for layout) -->
+<link rel="stylesheet" href="css/style.css">
+
   </head>
   <body id="homepage">
-    <nav class="navbar navbar-expand-lg navbar-transparent" data-bs-theme="dark">
-        <div class="container-fluid nav-container">
-            <a class="navbar-brand" href="index.html">Typing Web</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse nav-links" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="typing_test.html">Typing Test</a>
-                </li>   
-                <li class="nav-item">
-                    <a class="nav-link" href="statistics.html">Stats</a>
-                  </li>            
-              </ul>              
-            </div>
-          </div>
-      </nav>
-      <div class="container typingeffectcontainer">
-        <div class="typewritereffect">
-            <h1>Improve your typing speed with our website!</h1>
-        </div>  
-        <div class="startbtncontainer">
-            <button type="button" class="btn btn-warning">Start Test   <i class="fas fa-play"></i>
-            </button>
-        </div>        
+    <nav
+      class="navbar navbar-expand-lg navbar-transparent"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand" href="index.html">Typing Web</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-links" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="typing_test.html">Typing Test</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="statistics.html">Stats</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </nav>
+    <div class="container typingeffectcontainer">
+      <div class="typewritereffect">
+        <h1>Improve your typing speed with our website!</h1>
+      </div>
+      <div class="startbtncontainer">
+        <button type="button" class="btn btn-warning">
+          <a href="typing_test.html">Start Test <i class="fas fa-play"></i></a>
+        </button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="js/script.js"></script>
   </body>
